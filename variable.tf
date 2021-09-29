@@ -1,3 +1,5 @@
+#These are the variables I wrote that are being referenced by 1 aws vpc resource
+
 variable "vpc-cidr" {
     default = "10.0.0.0/16"
     description = "VPC CIDR Block"
