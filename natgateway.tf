@@ -1,3 +1,5 @@
+#This code provisions a NAT a gateway referencing the vpc previously created 
+
 # Allocate Elastic IP Address (EIP 1)
 resource "aws_eip" "DaXPO-eip-for-nat-gateway-1" {
   vpc    = true
