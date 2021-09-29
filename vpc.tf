@@ -1,3 +1,5 @@
+#This code creates a VPC using variables created in the "variables.tf" file. 
+
 # Create VPC
 resource "aws_vpc" "vpc" {
   cidr_block              = "${var.vpc-cidr}"
