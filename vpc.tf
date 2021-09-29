@@ -1,4 +1,4 @@
-#This code creates a VPC using variables created in the "variables.tf" file. 
+#This code creates a aws VPC using variables created in the "variables.tf" file. 
 
 # Create VPC
 resource "aws_vpc" "vpc" {
