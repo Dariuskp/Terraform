@@ -1,2 +1,2 @@
 # Terraform
-Here is where you will find my Infrastructure as Code (IaC) projects using Terraform!
+In this repository you will find Terraform scripts provisioning AWS resources.
