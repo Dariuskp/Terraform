@@ -1,3 +1,4 @@
+#This Terraform module provisions an EC2 instance and creates a CloudWatch alarm meausring CPU Utilization.
 #Create EC2 Instance
 resource "aws_instance" "Daxpoinstance" {
   ami = data.aws_ami.amzlinux2.id
